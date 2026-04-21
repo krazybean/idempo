@@ -5,18 +5,18 @@
 
 Stop duplicate requests from breaking your API.
 
-idempo ensures:
+idempo guarantees:
 - one execution per request key
-- safe retries
-- concurrency protection
+- safe retries without side effects
+- concurrency protection under load
+
+Works with any framework. No lock-in.
 
 ## Install
 
 ```bash
 npm install idempo
 ```
-
-Works with any framework. No lock-in.
 
 `idempo` helps API services avoid duplicate side effects from retries, repeated submissions, and concurrent requests.
 
