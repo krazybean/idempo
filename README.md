@@ -1,4 +1,7 @@
 # idempo — Safe, minimal idempotency for APIs
+[![npm version](https://img.shields.io/npm/v/idempo.svg)](https://www.npmjs.com/package/idempo)
+![npm downloads](https://img.shields.io/npm/dm/idempo)
+![license](https://img.shields.io/npm/l/idempo)
 
 `idempo` helps API services avoid duplicate side effects from retries, repeated submissions, and concurrent requests.
 

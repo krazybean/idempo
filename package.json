@@ -2,7 +2,24 @@
   "name": "idempo",
   "version": "0.1.0",
   "description": "Idempotency and duplicate request protection for APIs.",
+  "keywords": [
+    "idempotency",
+    "api",
+    "middleware",
+    "deduplication",
+    "retry",
+    "concurrency"
+  ],
+  "author": "Juan Castro",
   "license": "MIT",
+  "homepage": "https://github.com/krazybean/idempo",
+  "bugs": {
+    "url": "https://github.com/krazybean/idempo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krazybean/idempo.git"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
